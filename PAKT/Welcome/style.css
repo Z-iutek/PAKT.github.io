@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cute Font', sans-serif;
+}
+.wybor {
+    height: 200px;
+    width: 600px;
+    
+    display: flex;
+    gap: 10px; 
+}
+.wybor img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #408A91;
+    cursor: pointer;
+}
+.start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background-image: url('background1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+#opis{
+    background-color: #408A91;
+    border: 2px solid #2E6368;
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 100px;
+    opacity: 90%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+    position: relative;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    transition: 0.2s;
+  }
+  
+  button:hover {
+    letter-spacing: 0.2rem;
+    padding: 1.1rem 3.1rem;
+    background: var(--clr);
+    color: var(--clr);
+    /* box-shadow: 0 0 35px var(--clr); */
+    animation: box 3s infinite;
+  }
+  
+  button::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #2E6368;
+  }
+  
+  button span {
+    position: relative;
+    z-index: 1;
+  }
+  button i {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+  
+  button i::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 80%;
+    top: -2px;
+    border: 2px solid var(--clr);
+    background: #2E6368;
+    transition: 0.2s;
+  }
+  
+  button:hover i::before {
+    width: 15px;
+    left: 20%;
+    animation: move 3s infinite;
+  }
+  
+  button i::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 20%;
+    bottom: -2px;
+    border: 2px solid var(--clr);
+    background: #2E6368;
+    transition: 0.2s;
+  }
+  
+  button:hover i::after {
+    width: 15px;
+    left: 80%;
+    animation: move 3s infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes box {
+    0% {
+      box-shadow: #2E6368;
+    }
+    50% {
+      box-shadow: 0 0 25px var(--clr);
+    }
+    100% {
+      box-shadow: #2E6368;
+    }
+  }
+
