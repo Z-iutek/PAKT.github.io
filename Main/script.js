@@ -156,7 +156,7 @@ function showText(text) {
 function uzyjumiejki(){
   var umiejka = document.getElementById('umiejka');
   if (steps>=10){
-    umiejka.innerHTML = "Your ability is ready!"
+    umiejka.innerHTML = "Your ability is ready! Press R"
     umiejka.style.fontSize= '34px';
   } else {
     umiejka.innerHTML = "Move to load ability " + steps  + '/10'
