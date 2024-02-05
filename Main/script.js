@@ -259,80 +259,80 @@ function checkStats() {
       // 1 - potka
       // 2 - potka
       if (cellMoney ==1 && cellHP == 0 && cellDMG == 0){
-        cell.style.backgroundImage = "url('enemy/enemy1.png";
+        cell.style.backgroundImage = "url('enemy1.png";
       } else if (cellMoney ==2 && cellHP == 0 && cellDMG == 0){
-        cell.style.backgroundImage = "url('enemy/enemy2.png";
+        cell.style.backgroundImage = "url('enemy2.png";
       } else if (cellMoney == 3 && cellHP == 0 && cellDMG == 0) { // 3 - Rabbit
         cellDMG = 4;
         cellHP = 8;
-        cell.style.backgroundImage = "url('enemy/enemy3.png";
+        cell.style.backgroundImage = "url('enemy3.png";
       } else if (cellMoney == 4 && cellHP == 0 && cellDMG == 0) { // 4 - Butterfly
         cellDMG = 4;
         cellHP = 16;
-        cell.style.backgroundImage = "url('enemy/enemy4.png";
+        cell.style.backgroundImage = "url('enemy4.png";
       } else if (cellMoney == 5 && cellHP == 0 && cellDMG == 0) { // 5 - Dog
         cellDMG = 3;
         cellHP = 14;
-        cell.style.backgroundImage = "url('enemy/enemy5.png";
+        cell.style.backgroundImage = "url('enemy5.png";
       } else if (cellMoney == 6 && cellHP == 0 && cellDMG == 0) { // 6 - Cat
         cellDMG = 4;
         cellHP = 17;
-        cell.style.backgroundImage = "url('enemy/enemy6.png";
+        cell.style.backgroundImage = "url('enemy6.png";
       } else if (cellMoney == 7 && cellHP == 0 && cellDMG == 0) { // 7 - Turtle
         cellDMG = 6;
         cellHP = 40;
-        cell.style.backgroundImage = "url('enemy/enemy7.png";
+        cell.style.backgroundImage = "url('enemy7.png";
       } else if (cellMoney == 8 && cellHP == 0 && cellDMG == 0) { // 8 - Frog
         cellDMG = 8;
         cellHP = 11;
-        cell.style.backgroundImage = "url('enemy/enemy8.png";
+        cell.style.backgroundImage = "url('enemy8.png";
       } else if (cellMoney == 9 && cellHP == 0 && cellDMG == 0) { // 9 - Bat
         cellDMG = 3;
         cellHP = 15;
-        cell.style.backgroundImage = "url('enemy/enemy9.png";
+        cell.style.backgroundImage = "url('enemy9.png";
       } else if (cellMoney == 10 && cellHP == 0 && cellDMG == 0) { // 10 - Jellyfish
         cellDMG = 20;
         cellHP = 8;
-        cell.style.backgroundImage = "url('enemy/enemy10.png')";
+        cell.style.backgroundImage = "url('enemy10.png')";
       } else if (cellMoney == 11 && cellHP == 0 && cellDMG == 0) { // 11 - Eagle
         cellDMG = 3;
         cellHP = 13;
-        cell.style.backgroundImage = "url('enemy/enemy11.png";
+        cell.style.backgroundImage = "url('enemy11.png";
       } else if (cellMoney == 12 && cellHP == 0 && cellDMG == 0) { // 12 - Crocodile
         cellDMG = 2;
         cellHP = 30;
-        cell.style.backgroundImage = "url('enemy/enemy12.png";
+        cell.style.backgroundImage = "url('enemy12.png";
       } else if (cellMoney == 13 && cellHP == 0 && cellDMG == 0) { // 13 - Shark
         cellDMG = 20;
         cellHP = 60;
-        cell.style.backgroundImage = "url('enemy/enemy13.png";
+        cell.style.backgroundImage = "url('enemy13.png";
       }
 
 
        else if (cellMoney == 3 && cellHP >= 1) { // 3 - Rabbit
-        cell.style.backgroundImage = "url('enemy/enemy3.png";
+        cell.style.backgroundImage = "url('enemy3.png";
       }else if (cellMoney == 4 && cellHP >= 1) { // 4 - Butterfly
-        cell.style.backgroundImage = "url('enemy/enemy4.png";
+        cell.style.backgroundImage = "url('enemy4.png";
       } else if (cellMoney == 5 && cellHP >= 1) { // 5 - Dog
-        cell.style.backgroundImage = "url('enemy/enemy5.png";
+        cell.style.backgroundImage = "url('enemy5.png";
       } else if (cellMoney == 6 && cellHP >= 1) { // 6 - Cat
-        cell.style.backgroundImage = "url('enemy/enemy6.png";
+        cell.style.backgroundImage = "url('enemy6.png";
       } else if (cellMoney == 7 && cellHP >= 1) { // 7 - Turtle
-        cell.style.backgroundImage = "url('enemy/enemy7.png";
+        cell.style.backgroundImage = "url('enemy7.png";
       } else if (cellMoney == 8 && cellHP >= 1) { // 8 - Frog
-        cell.style.backgroundImage = "url('enemy/enemy8.png";
+        cell.style.backgroundImage = "url('enemy8.png";
       } else if (cellMoney == 9 && cellHP >= 1) { // 9 - Bat
-        cell.style.backgroundImage = "url('enemy/enemy9.png";
+        cell.style.backgroundImage = "url('enemy9.png";
       } else if (cellMoney == 10 && cellHP >= 1) { // 10 - Jellyfish
-        cell.style.backgroundImage = "url('enemy/enemy10.png')";
+        cell.style.backgroundImage = "url('enemy10.png')";
       } else if (cellMoney == 11 && cellHP >= 1) { // 11 - Eagle
-        cell.style.backgroundImage = "url('enemy/enemy11.png";
+        cell.style.backgroundImage = "url('enemy11.png";
       } else if (cellMoney == 12 && cellHP >= 1) { // 12 - Crocodile
-        cell.style.backgroundImage = "url('enemy/enemy12.png";
+        cell.style.backgroundImage = "url('enemy12.png";
       } else if (cellMoney == 13 && cellHP >= 1) { // 13 - Shark
-        cell.style.backgroundImage = "url('enemy/enemy13.png";
+        cell.style.backgroundImage = "url('enemy13.png";
       } else if (cellMoney >= 3 && cellHP == 0) { // 0 ------ DEAD
-        cell.style.backgroundImage = "url('enemy/enemy0.png";
+        cell.style.backgroundImage = "url('enemy0.png";
       }
 
 
@@ -506,12 +506,12 @@ if (highlightedHP > maxHP) {
 cells[currentCellIndex].classList.add('highlighted'); // Dodanie klasy 'highlighted' do aktualnej komórki
 cells[currentCellIndex].textContent = generateCellValue(highlightedHP, highlightedDMG, highlightedMoney);
 
-
 // Wyświetlanie statystyk obok pola ------------------------------------------------------------------------------------------------------------------
 function updateStats() {
   const hpValue = document.getElementById('hpValue');
   const dmgValue = document.getElementById('dmgValue');
-  const moneyValue = document.getElementById('moneyValue');
+  const moneyValue = document.getElementById('moneyValue')
+  
 
   const highlightedValues = cells[currentCellIndex].textContent.split('-');
   const highlightedHP = parseInt(highlightedValues[0]);
