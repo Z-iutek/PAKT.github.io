@@ -180,13 +180,13 @@ function generateCellValue(hp, dmg, money) {
 function postacglowna(){
   if (skill==1){
     cells[currentCellIndex].style.backgroundImage = 'none';
-    cells[currentCellIndex].style.backgroundImage = "url('postaci/postac1.png')";
+    cells[currentCellIndex].style.backgroundImage = "url('postac1.png')";
   } else if (skill==2){
     cells[currentCellIndex].style.backgroundImage = 'none';
-    cells[currentCellIndex].style.backgroundImage = "url('postaci/postac2.png')";
+    cells[currentCellIndex].style.backgroundImage = "url('postac2.png')";
   } else if (skill==3){
     cells[currentCellIndex].style.backgroundImage = 'none';
-    cells[currentCellIndex].style.backgroundImage = "url('postaci/postac3.png')";
+    cells[currentCellIndex].style.backgroundImage = "url('postac3.png')";
   }
 }
 
